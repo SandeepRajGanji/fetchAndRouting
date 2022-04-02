@@ -1,0 +1,70 @@
+/* Write your CSS code here */
+.item-link {
+  width: 100%;
+  text-decoration: none;
+}
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+}
+.item-image {
+  height: 200px;
+  width: 40%;
+}
+.item-info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 15px;
+
+  margin-bottom: 60px;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+.author-info {
+  display: flex;
+}
+.author-name {
+  color: #8e8e8e;
+}
+.item-title {
+  color: #000000;
+  font-size: 20px;
+}
+.item-info {
+  color: #8e8e8e;
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .item-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+  }
+  .item-image {
+    height: 200px;
+    width: 100%;
+  }
+  .item-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+}
